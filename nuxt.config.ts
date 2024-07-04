@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   modules: [
+    '@nuxtjs/i18n',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error
@@ -21,5 +22,5 @@ export default defineNuxtConfig({
         transformAssetUrls,
       },
     },
-  },
+  }
 })
