@@ -1,12 +1,15 @@
 export default defineI18nConfig(() => ({
     legacy: false,
-    locale: 'en',
+    locale: 'es',
     messages: {
       en: { // English
         
       },
       es: { // Spanish
-
+        landing: {
+          title: "NPC CALCULATOR",
+          'sub-title': "¿Es tu amigo un NPC?"
+        }
       },
       ca: { // Catalan
 

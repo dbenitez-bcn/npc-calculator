@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <NuxtLayout>
+      <AppHeader/>
       <!-- <div>
         <button @click="setLocale('en')">en</button>
         <button @click="setLocale('fr')">fr</button>
