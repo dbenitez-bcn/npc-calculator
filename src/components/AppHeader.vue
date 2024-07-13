@@ -1,5 +1,6 @@
 <template>
     <div class="app-header pa-4">
+        <LanguageSelector />
         <p class="text-h3 text-md-center">{{ $t('landing.title') }}</p>
         <p class="text-h6 text-md-center">{{ $t('landing.sub-title') }}</p>
     </div>
