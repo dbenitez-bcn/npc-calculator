@@ -1,19 +1,16 @@
 <template>
-  <NuxtLayout>
-    <v-app>
-      <div>
+  <v-app>
+    <NuxtLayout>
+      <!-- <div>
         <button @click="setLocale('en')">en</button>
         <button @click="setLocale('fr')">fr</button>
         <button @click="setLocale('es')">es</button>
         <p>{{ $t('welcome') }}</p>
-      </div>
-      <v-btn variant="elevated" class="bg-night-grey">
-        Button
-      </v-btn>
+      </div> -->
+      <NuxtPage />
       <NuxtRouteAnnouncer />
-      <NuxtWelcome />
-    </v-app>
-  </NuxtLayout>
+    </NuxtLayout>
+  </v-app>
 </template>
 <script setup>
 const { locale, setLocale } = useI18n()
