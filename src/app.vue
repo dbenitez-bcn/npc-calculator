@@ -10,6 +10,7 @@
       </div> -->
       <NuxtPage />
       <NuxtRouteAnnouncer />
+      <AppFooter />
     </NuxtLayout>
   </v-app>
 </template>
