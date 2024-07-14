@@ -9,6 +9,11 @@ export default defineI18nConfig(() => ({
         landing: {
           title: "NPC CALCULATOR",
           'sub-title': "¿Es tu amigo un NPC?"
+        },
+        footer: {
+          copy: "NPC Calculator ©",
+          about: "Sobre nosotros",
+          privacy: "Política de privacidad"
         }
       },
       ca: { // Catalan
