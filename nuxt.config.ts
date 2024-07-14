@@ -22,6 +22,11 @@ export default defineNuxtConfig({
     },
     //...
   ],
+  i18n: {
+    locales: ['en', 'es', 'ca', 'de', 'fr', 'pt'], 
+    defaultLocale: 'en',
+    strategy: 'prefix'
+  },
   vite: {
     vue: {
       template: {
