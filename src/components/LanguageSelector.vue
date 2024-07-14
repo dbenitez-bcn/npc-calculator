@@ -1,5 +1,5 @@
 <template>
-  <v-row class="justify-end ma-0">
+  <v-row class="ma-0" justify="end">
     <v-col
       v-on:click="onClick"
       v-click-outside="onClickOutisde"
