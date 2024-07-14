@@ -1,13 +1,52 @@
 <template>
-    <h1>Home</h1>
-  </template>
+  <v-container>
+    <v-row>
+      <v-col>
+        <v-button>Hello</v-button>
+      </v-col>
+      <v-col>
+        <v-button>Mellow</v-button>
+      </v-col>
+    </v-row>
+    <v-divider class="border-opacity-100 my-4" color="secondary"></v-divider>
+    <v-row>
+      <v-col cols="12" sm="6">
+        <p class="text-h6">{{ $t("landing.content.title1") }}</p>
+        <p class="text-body-1 text-sm-justify text-center">
+          {{ $t("landing.content.body1") }}
+        </p>
+        <v-img
+          class="rounded-circle mx-8 my-4"
+          src="~/assets/img/landing-1.jpg"
+        ></v-img>
+      </v-col>
+      <v-col cols="12" sm="6">
+        <p class="text-h6">{{ $t("landing.content.title2") }}</p>
+        <p class="text-body-1 text-sm-justify text-center">
+          {{ $t("landing.content.body2") }}
+        </p>
+        <v-img
+          class="rounded-circle mx-8 my-4"
+          src="~/assets/img/landing-2.jpg"
+        ></v-img>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12" class="d-flex align-center flex-column">
+        <p class="text-body-1 text-center">
+          {{ $t("landing.content.body3") }}
+        </p>
+        <v-btn class="my-4" variant="flat" rounded="xl" color="primary">{{
+          $t("landing.content.btn3")
+        }}</v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
   
   <script>
-  export default {
-  
-  }
-  </script>
+export default {};
+</script>
   
   <style>
-  
-  </style>
+</style>
