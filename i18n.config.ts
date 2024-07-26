@@ -34,6 +34,9 @@ export default defineI18nConfig(() => ({
     },
     pt: { // Portuguese
 
+    },
+    it: { // italian
+
     }
   }
 }))

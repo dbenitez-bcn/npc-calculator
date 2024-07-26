@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     //...
   ],
   i18n: {
-    locales: ['en', 'es', 'ca', 'de', 'fr', 'pt'], 
+    locales: ['en', 'es', 'ca', 'de', 'fr', 'pt', 'it'], 
     defaultLocale: 'en',
     strategy: 'prefix'
   },
