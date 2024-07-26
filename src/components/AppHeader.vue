@@ -4,8 +4,8 @@
       <LanguageSelector />
       <v-row class="justify-sm-center justify-sx-start">
         <v-col cols="8">
-          <p class="text-h3">{{ $t("landing.title") }}</p>
-          <p class="text-h6">{{ $t("landing.sub-title") }}</p>
+          <h1 class="text-h3">{{ $t("landing.title") }}</h1>
+          <h2 class="text-h6">{{ $t("landing.sub-title") }}</h2>
         </v-col>
       </v-row>
     </v-container>
