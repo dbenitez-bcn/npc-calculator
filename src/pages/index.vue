@@ -15,20 +15,14 @@
         <h3 class="text-body-1 text-sm-justify text-center">
           {{ $t("landing.content.body1") }}
         </h3>
-        <v-img
-          class="rounded-circle mx-8 my-4"
-          src="~/assets/img/landing-1.jpg"
-        ></v-img>
+        <v-img class="rounded-circle mx-8 my-4" src="~/assets/img/landing-1.jpg"></v-img>
       </v-col>
       <v-col cols="12" sm="6">
         <h2 class="text-h6">{{ $t("landing.content.title2") }}</h2>
         <h3 class="text-body-1 text-sm-justify text-center">
           {{ $t("landing.content.body2") }}
         </h3>
-        <v-img
-          class="rounded-circle mx-8 my-4"
-          src="~/assets/img/landing-2.jpg"
-        ></v-img>
+        <v-img class="rounded-circle mx-8 my-4" src="~/assets/img/landing-2.jpg"></v-img>
       </v-col>
     </v-row>
     <v-row>
@@ -43,10 +37,8 @@
     </v-row>
   </v-container>
 </template>
-  
-  <script>
+<script>
 export default {};
 </script>
-  
-  <style>
-</style>
+
+<style></style>
