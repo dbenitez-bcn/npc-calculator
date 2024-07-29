@@ -1,13 +1,7 @@
 <template>
   <v-app>
     <NuxtLayout>
-      <AppHeader/>
-      <!-- <div>
-        <button @click="setLocale('en')">en</button>
-        <button @click="setLocale('fr')">fr</button>
-        <button @click="setLocale('es')">es</button>
-        <p>{{ $t('welcome') }}</p>
-      </div> -->
+      <AppHeader />
       <NuxtPage />
       <NuxtRouteAnnouncer />
       <AppFooter />
