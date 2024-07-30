@@ -10,8 +10,10 @@ const mainTheme: ThemeDefinition = {
         primary: '#8F30F6',
         secondary: '#329FC0',
         'night-grey': '#232220',
+        'night-blue': '#221BCA',
         'lucky-point-blue': '#101463',
-        'ultimate-green': '#00AA44'
+        'ultimate-green': '#00AA44',
+        'soft-thunder': "#EBC737"
     },
 }
 export default defineNuxtPlugin((app) => {
