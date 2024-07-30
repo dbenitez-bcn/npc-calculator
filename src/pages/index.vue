@@ -2,10 +2,14 @@
   <v-container>
     <v-row>
       <v-col cols="12" sm="6">
-        <friend-button :img-src="'/img/male-friend.png'" :title="'landing.content.btn1'" :is-reverse="false"/>
+        <NuxtLink :to="localePath('/male')">
+          <FriendButton :img-src="'/img/male-friend.png'" :title="'landing.content.btn1'" :is-reverse="false" />
+        </NuxtLink>
       </v-col>
       <v-col cols="12" sm="6">
-        <friend-button :img-src="'/img/female-friend.png'" :title="'landing.content.btn2'" :is-reverse="true"/>
+        <NuxtLink :to="localePath('/female')">
+          <FriendButton :img-src="'/img/female-friend.png'" :title="'landing.content.btn2'" :is-reverse="true" />
+        </NuxtLink>
       </v-col>
     </v-row>
     <v-divider class="border-opacity-100 my-4" color="secondary"></v-divider>
@@ -37,8 +41,8 @@
     </v-row>
   </v-container>
 </template>
-<script>
-export default {};
+<script setup>
+const { locale } = useI18n();
 </script>
 
 <style></style>
