@@ -1,11 +1,11 @@
 <template>
   <v-container>
     <v-row>
-      <v-col>
-        <v-button>Hello</v-button>
+      <v-col cols="12" sm="6">
+        <friend-button :img-src="'/img/male-friend.png'" :title="'landing.content.btn1'" :is-reverse="false"/>
       </v-col>
-      <v-col>
-        <v-button>Mellow</v-button>
+      <v-col cols="12" sm="6">
+        <friend-button :img-src="'/img/female-friend.png'" :title="'landing.content.btn2'" :is-reverse="true"/>
       </v-col>
     </v-row>
     <v-divider class="border-opacity-100 my-4" color="secondary"></v-divider>
