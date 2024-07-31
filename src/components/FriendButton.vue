@@ -5,7 +5,7 @@
     <div class="img-container">
       <v-img :src="imgSrc" :height="'100%'" cover/>
     </div>
-    <p class="text-md-h5 text-h6 px-4 align-self-center">{{ $t(title) }}</p>
+    <h2 class="text-md-h5 text-h6 px-4 align-self-center">{{ $t(title) }}</h2>
     <i></i>
   </div>
 </template>
