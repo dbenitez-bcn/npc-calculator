@@ -33,5 +33,8 @@ export default defineNuxtConfig({
         transformAssetUrls,
       },
     },
-  }
+  },
+  css: [
+    '~/assets/styles/main.css',
+  ],
 })
