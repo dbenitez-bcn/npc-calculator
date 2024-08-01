@@ -16,10 +16,14 @@ export default defineI18nConfig(() => ({
           title2: "¿Como funciona NPC calculator?",
           body2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et pulvinar orci. Maecenas luctus maximus ultrices. Fusce efficitur augue mollis orci sodales, vitae volutpat diam tempor.",
           body3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et pulvinar orci. Maecenas luctus maximus ultrices. Fusce efficitur augue mollis orci sodales, vitae volutpat diam tempor.",
-          btn1: "Es mi amigo un NPC?",
-          btn2: "Es mi amiga una NPC?",
+          btn1: "¿Es mi amigo un NPC?",
+          btn2: "¿Es mi amiga una NPC?",
           btn3: "Calcular ahora"
         }
+      },
+      calculate: {
+        title_m: "¿Es tu amigo un NPC?",
+        title_f: "¿Es tu amiga una NPC?"
       },
       footer: {
         copy: "NPC Calculator ©",
