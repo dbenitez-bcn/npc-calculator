@@ -1,3 +1,7 @@
 a {
     text-decoration: none;
 }
+
+.neon-shadow {
+    box-shadow: 0px 0px 16px 2px rgb(var(--v-theme-secondary));
+}
