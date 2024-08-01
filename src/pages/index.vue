@@ -43,6 +43,11 @@
 </template>
 <script setup>
 const { locale } = useI18n();
+
+definePageMeta({
+  headerTitle: "landing.title",
+  headerSubtitle: "landing.sub-title"
+})
 </script>
 
 <style></style>

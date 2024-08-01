@@ -5,7 +5,12 @@
         <v-col class="pa-0 d-block d-sm-none" cols="2">
           <AppLogo />
         </v-col>
-        <v-col cols="4" sm="2" xl="1" class="d-flex justify-center align-self-center">
+        <v-col
+          cols="4"
+          sm="2"
+          xl="1"
+          class="d-flex justify-center align-self-center"
+        >
           <LanguageSelector />
         </v-col>
       </v-row>
@@ -14,16 +19,16 @@
           <AppLogo />
         </v-col>
         <v-col class="d-flex flex-column justify-center" lg="7">
-          <h1 class="text-h3">{{ $t("landing.title") }}</h1>
-          <h2 class="text-h6">{{ $t("landing.sub-title") }}</h2>
+          <h1 class="text-h3">{{ $t(route.meta.headerTitle) }}</h1>
+          <h2 class="text-h6">{{ $t(route.meta.headerSubtitle) }}</h2>
         </v-col>
       </v-row>
     </v-container>
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+const route = useRoute();
 </script>
 
 <style>
