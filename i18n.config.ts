@@ -8,7 +8,8 @@ export default defineI18nConfig(() => ({
     },
     es: { // Spanish
       landing: {
-        title: "NPC CALCULATOR",
+        title_m: "NPC CALCULATOR",
+        title_f: "NPC CALCULATOR",
         'sub-title': "¿Es tu amigo un NPC?",
         content: {
           title1: "¿Que es un NPC?",

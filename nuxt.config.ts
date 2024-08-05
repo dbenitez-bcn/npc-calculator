@@ -6,6 +6,39 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "NPC Calculator",
+      link: [
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/apple-touch-icon.png"
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/favicon-32x32.png"
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/favicon-16x16.png"
+        },
+        {
+          rel: "manifest",
+          href: "/site.webmanifest"
+        }
+      ],
+      meta: [
+        {
+          name: "msapplication-TileColor",
+          content: "#da532c"
+        },
+        {
+          name: "theme-color",
+          content: "#ffffff"
+        }
+      ]
     }
   },
   devtools: { enabled: true },
@@ -24,7 +57,7 @@ export default defineNuxtConfig({
     //...
   ],
   i18n: {
-    locales: ['en', 'es', 'ca', 'de', 'fr', 'pt', 'it'], 
+    locales: ['en', 'es', 'ca', 'de', 'fr', 'pt', 'it'],
     defaultLocale: 'en',
     strategy: 'prefix'
   },

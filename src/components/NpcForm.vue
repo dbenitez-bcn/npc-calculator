@@ -1,13 +1,11 @@
 <template>
     <div>
-        {{ isMale ? "Male!" : "Female!" }}
+        {{ friend.isMale ? "Male!" : "Female!" }}
     </div>
 </template>
 
 <script setup>
-defineProps({
-    isMale: Boolean
-})
+const friend = useFriend();
 
 </script>
 
