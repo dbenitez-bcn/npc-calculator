@@ -20,7 +20,7 @@
         </v-col>
         <v-col class="d-flex flex-column justify-center" lg="7">
           <h1 class="text-h3">{{ $t(route.meta.headerTitle) }}</h1>
-          <h2 class="text-h6">{{ $t(route.meta.headerSubtitle) }}</h2>
+          <h2 v-if="route.meta.headerSubtitle" class="text-h6">{{ $t(route.meta.headerSubtitle) }}</h2>
         </v-col>
       </v-row>
     </v-container>
