@@ -15,7 +15,7 @@ describe('Friend store', () => {
             sut.setGender(Gender.male);
             expect(sut.isMale).toBeTruthy();
         })
-        it('Should return true when gender is male', () => {
+        it('Should return false when gender is female', () => {
             const sut =  useFriend();
             sut.setGender(Gender.female);
             expect(sut.isMale).toBeFalsy();
