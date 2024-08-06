@@ -10,7 +10,7 @@
           @click="navigateToCalculate(Gender.female)" />
       </v-col>
     </v-row>
-    <v-divider class="border-opacity-100 my-4 neon-shadow" color="secondary"></v-divider>
+    <Divider />
     <v-row>
       <v-col cols="12" sm="6">
         <h3 class="text-h6">{{ $t("landing.content.title1") }}</h3>
