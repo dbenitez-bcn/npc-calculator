@@ -16,7 +16,11 @@
     },
     "calculate": {
         "title_m": "¿Es tu amigo un NPC?",
-        "title_f": "¿Es tu amiga una NPC?"
+        "title_f": "¿Es tu amiga una NPC?",
+        "content": {
+            "title1": "Color de pelo",
+            "btn1": "Calcular"
+        }
     },
     "footer": {
         "copy": "NPC Calculator ©",
