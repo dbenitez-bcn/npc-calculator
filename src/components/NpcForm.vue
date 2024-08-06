@@ -1,17 +1,21 @@
 <template>
-    <div>
-        <MultiSelector :items="genderButons" />
-    </div>
+  <div class="d-flex flex-column align-center">
+    <Selector :items="genderButons" :selected="friend.isMale ? 1 : 0" @onSelectedUpdate="updateGender" />
+  </div>
 </template>
 
 <script setup>
 const friend = useFriend();
 
 const genderButons = [{
-  src: "/icons/female.svg"
-},{
-  src: "/icons/male.svg"
+  src: "$female"
+}, {
+  src: "$male"
 }]
+
+function updateGender(index) {
+  friend.setGender(index == 1 ? Gender.male : Gender.female);
+}
 </script>
 
 <style lang="scss" scoped></style>
