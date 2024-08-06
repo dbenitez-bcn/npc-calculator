@@ -3,6 +3,8 @@ import '@mdi/font/css/materialdesignicons.css'
 
 import 'vuetify/styles'
 import { createVuetify, type ThemeDefinition } from 'vuetify'
+import { customAliases } from '~/iconsets/custom'
+import { aliases } from 'vuetify/iconsets/mdi-svg'
 
 const mainTheme: ThemeDefinition = {
     colors: {
@@ -26,6 +28,12 @@ export default defineNuxtPlugin((app) => {
                 mainTheme,
             },
         },
+        icons: {
+            aliases: {
+                ...aliases,
+                ...customAliases
+            }
+        }
     })
     app.vueApp.use(vuetify)
 })
