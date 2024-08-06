@@ -8,6 +8,7 @@ describe('Friend store', () => {
     it('should have an initial state', () => {
         const sut = useFriend();
         expect(sut.gender).toBe('m');
+        expect(sut.hair).toBe(-1);
     })
     describe('isMale', () => {
         it('Should return true when gender is male', () => {
