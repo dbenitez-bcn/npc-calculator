@@ -13,7 +13,9 @@ const mainTheme: ThemeDefinition = {
         'night-blue': '#221BCA',
         'lucky-point-blue': '#101463',
         'ultimate-green': '#00AA44',
-        'soft-thunder': "#EBC737"
+        'soft-thunder': "#EBC737",
+        'female-pink': '#FF5CCD',
+        'male-blue': '#69C9D0'
     },
 }
 export default defineNuxtPlugin((app) => {
