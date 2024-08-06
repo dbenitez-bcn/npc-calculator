@@ -8,16 +8,7 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm i
 ```
 
 ## Development Server
@@ -25,17 +16,15 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
+```
 
-# pnpm
-pnpm run dev
+## Testing
 
-# yarn
-yarn dev
+Execute entire test suit
 
-# bun
-bun run dev
+```bash
+npm run test
 ```
 
 ## Production
@@ -43,33 +32,41 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
 npm run preview
+```
 
-# pnpm
-pnpm run preview
+## Create new icon
+- First create a new vue componen and add the svg code inside template tag
+``` html
+<!-- myIcon.vue -->
+<template>
+    <svg style="width: 100%; height: 100%;">
+        <path d="M7,10L12,15L17,10H7Z"></path>
+    </svg>
+</template>
+```
+- Then import it and add it to the custom set
+``` typescript 
+// custom.ts
+import myIcon from "myIcon.vue";
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
+export const customAliases = {
+    // ...
+    myIcon
+};
+```
+- The use it
+``` html
+<!-- myIcon.vue -->
+<template>
+    <v-icon icon="$myIcon" />
+</template>
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
