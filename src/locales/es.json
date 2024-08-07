@@ -18,7 +18,24 @@
         "title_m": "¿Es tu amigo un NPC?",
         "title_f": "¿Es tu amiga una NPC?",
         "content": {
-            "title1": "Color de pelo",
+            "title1": "¿Qué música escucha?",
+            "music": {
+                "label1": "Techno",
+                "label2": "Urbana",
+                "label3": "Rock",
+                "label4": "Pop",
+                "label5": "Clásica"
+            },
+            "title2": "¿Qué redes sociales tiene?",
+            "title3": "Color de pelo",
+            "title4": "¿Qué pasatiempos tiene?",
+            "hobbie": {
+                "label1": "Leer",
+                "label2": "Juegos",
+                "label3": "Cantar",
+                "label4": "Deporte",
+                "label5": "TV"
+            },
             "btn1": "Calcular"
         }
     },
