@@ -6,6 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev --host",
     "test": "vitest",
+    "icon-processor": "bash icon-processor.sh",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"

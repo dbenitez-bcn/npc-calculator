@@ -42,7 +42,15 @@ npm run preview
 ```
 
 ## Create new icon
-- First create a new vue componen and add the svg code inside template tag
+
+### Fast way
+Add you .svg files into icons folder under assets and run:
+```bash
+npm run icon-processor
+```
+
+### Manual way
+First create a new vue componen and add the svg code inside template tag
 ``` html
 <!-- myIcon.vue -->
 <template>
@@ -51,7 +59,7 @@ npm run preview
     </svg>
 </template>
 ```
-- Then import it and add it to the custom set
+Then import it and add it to the custom set
 ``` typescript 
 // custom.ts
 import myIcon from "myIcon.vue";
@@ -61,7 +69,7 @@ export const customAliases = {
     myIcon
 };
 ```
-- The use it
+Then use it
 ``` html
 <!-- myIcon.vue -->
 <template>
