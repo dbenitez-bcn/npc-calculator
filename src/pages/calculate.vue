@@ -4,7 +4,7 @@
       <v-col>
         <Selector :items="genderButons" :selected="friend.isMale ? 1 : 0" @onSelectedUpdate="updateGender" />
         <h3 class="w-100"> {{ $t("calculate.content.title1") }}</h3>
-        <Selector :items="hairButons" :selected="friend.hair" @onSelectedUpdate="updateHair" />
+        <Selector :items="hairButons" :selected="friend.hair" :fillWith="true" @onSelectedUpdate="updateHair" />
         <Divider />
         <v-btn class="my-4" variant="flat" rounded="xl" color="primary">{{
           $t("calculate.content.btn1")

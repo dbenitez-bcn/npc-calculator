@@ -10,6 +10,7 @@
 <script setup>
 defineProps({
   items: Array,
-  selected: Number
+  selected: Number,
+  fillWith: Boolean
 });
 </script>
