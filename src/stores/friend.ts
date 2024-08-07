@@ -8,6 +8,9 @@ export enum Gender {
 export const useFriend = defineStore('friend', () => {
     const gender = ref(Gender.male);
     const hair = ref(-1);
+    const music = ref([false, false, false, false, false]);
+    const social = ref([false, false, false, false, false]);
+    const hobbie = ref([false, false, false, false, false]);
 
     const isMale = computed(() => gender.value == Gender.male ? true : false);
 
@@ -15,5 +18,5 @@ export const useFriend = defineStore('friend', () => {
         gender.value = value;
     }
 
-    return { gender, hair, isMale, setGender };
+    return { gender, hair, music, social, hobbie, isMale, setGender };
 });

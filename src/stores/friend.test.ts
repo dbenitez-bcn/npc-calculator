@@ -9,6 +9,9 @@ describe('Friend store', () => {
         const sut = useFriend();
         expect(sut.gender).toBe('m');
         expect(sut.hair).toBe(-1);
+        expect(sut.music).toStrictEqual([false, false, false, false, false]);
+        expect(sut.social).toStrictEqual([false, false, false, false, false]);
+        expect(sut.hobbie).toStrictEqual([false, false, false, false, false]);
     })
     describe('isMale', () => {
         it('Should return true when gender is male', () => {
