@@ -3,18 +3,38 @@
     <v-row>
       <v-col class="d-flex flex-column align-center">
         <Selector :items="genderButtons" :selected="friend.isMale ? 1 : 0" @onSelectedUpdate="updateGender" />
-        <h3 class="w-100"> {{ $t("calculate.content.title1") }}</h3>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col class="d-flex flex-column align-center" cols="12" sm="6">
+        <h3 class="w-100 mb-6"> {{ $t("calculate.content.title1") }}</h3>
         <MultiSelector :items="musicButtons" :selecteds="friend.music" @onToggle="toggleMusic" />
-        <Divider />
-        <h3 class="w-100"> {{ $t("calculate.content.title2") }}</h3>
+        <Divider class="d-flex d-sm-none"/>
+      </v-col>
+      <v-col class="d-flex flex-column align-center" cols="12" sm="6">
+        <h3 class="w-100 mb-6"> {{ $t("calculate.content.title2") }}</h3>
         <MultiSelector :items="socialButtons" :selecteds="friend.social" @onToggle="toggleSocial" />
-        <Divider />
-        <h3 class="w-100"> {{ $t("calculate.content.title3") }}</h3>
-        <Selector :items="hairButtons" :selected="friend.hair" :fillWith="true" @onSelectedUpdate="updateHair" />
-        <Divider />
-        <h3 class="w-100"> {{ $t("calculate.content.title4") }}</h3>
+        <Divider class="d-flex d-sm-none"/>
+      </v-col>
+    </v-row>
+    <Divider class="d-none d-sm-flex"/>
+    <v-row>
+      <v-col class="d-flex flex-column align-center" cols="12" sm="6">
+        <h3 class="w-100 mb-2"> {{ $t("calculate.content.title3") }}</h3>
+        <div class="d-flex h-100">
+          <Selector class="align-self-center" :items="hairButtons" :selected="friend.hair" :fillWith="true" @onSelectedUpdate="updateHair" />
+        </div>
+        <Divider class="d-flex d-sm-none"/>
+      </v-col>
+      <v-col class="d-flex flex-column align-center" cols="12" sm="6">
+        <h3 class="w-100 mb-6"> {{ $t("calculate.content.title4") }}</h3>
         <MultiSelector :items="hobbieButtons" :selecteds="friend.hobbie" @onToggle="toggleHobbie" />
-        <Divider />
+        <Divider class="d-flex d-sm-none"/>
+      </v-col>
+    </v-row>
+    <Divider class="d-none d-sm-flex"/>
+    <v-row>
+      <v-col class="d-flex flex-column align-center">
         <v-btn class="my-4" variant="flat" rounded="xl" color="primary">{{
           $t("calculate.content.btn1")
         }}</v-btn>
@@ -55,17 +75,23 @@ const hairButtons = [{
 }]
 
 const socialButtons = [{
-  src: "$social1"
+  src: "$social1",
+  label: "calculate.content.social.label1"
 }, {
-  src: "$social2"
+  src: "$social2",
+  label: "calculate.content.social.label2"
 }, {
-  src: "$social3"
+  src: "$social3",
+  label: "calculate.content.social.label3"
 }, {
-  src: "$social4"
+  src: "$social4",
+  label: "calculate.content.social.label4"
 }, {
-  src: "$social5"
+  src: "$social5",
+  label: "calculate.content.social.label5"
 }, {
-  src: "$social6"
+  src: "$social6",
+  label: "calculate.content.social.label6"
 }]
 
 const musicButtons = [{
