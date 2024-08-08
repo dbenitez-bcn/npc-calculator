@@ -1,3 +1,6 @@
+import hobbie6 from '~/components/icons/hobbie6.vue';
+import social6 from '~/components/icons/social6.vue';
+import music6 from '~/components/icons/music6.vue';
 import hobbie5 from '~/components/icons/hobbie5.vue';
 import hobbie4 from '~/components/icons/hobbie4.vue';
 import hobbie3 from '~/components/icons/hobbie3.vue';
@@ -42,6 +45,9 @@ export const customAliases = {
     hobbie3,
     hobbie4,
     hobbie5,
+    music6,
+    social6,
+    hobbie6,
     hair4,
     hair5,
 };
