@@ -28,6 +28,14 @@
                 "label6": "Urbana"
             },
             "title2": "¿Qué redes sociales tiene?",
+            "social": {
+                "label1": "Facebook",
+                "label2": "Instagram",
+                "label3": "Pinterest",
+                "label4": "TikTok",
+                "label5": "X",
+                "label6": "Snapchat"
+            },
             "title3": "Color de pelo",
             "title4": "¿Qué pasatiempos tiene?",
             "hobbie": {
