@@ -1,18 +1,18 @@
 <template>
   <v-container>
     <v-row>
-      <v-col class="d-flex flex-column">
-        <Selector class=" align-self-center" :items="genderButtons" :selected="friend.isMale ? 1 : 0" @onSelectedUpdate="updateGender" />
-        <h3> {{ $t("calculate.content.title1") }}</h3>
+      <v-col class="d-flex flex-column align-center">
+        <Selector :items="genderButtons" :selected="friend.isMale ? 1 : 0" @onSelectedUpdate="updateGender" />
+        <h3 class="w-100"> {{ $t("calculate.content.title1") }}</h3>
         <MultiSelector :items="musicButtons" :selecteds="friend.music" @onToggle="toggleMusic" />
         <Divider />
-        <h3> {{ $t("calculate.content.title2") }}</h3>
+        <h3 class="w-100"> {{ $t("calculate.content.title2") }}</h3>
         <MultiSelector :items="socialButtons" :selecteds="friend.social" @onToggle="toggleSocial" />
         <Divider />
-        <h3> {{ $t("calculate.content.title3") }}</h3>
+        <h3 class="w-100"> {{ $t("calculate.content.title3") }}</h3>
         <Selector :items="hairButtons" :selected="friend.hair" :fillWith="true" @onSelectedUpdate="updateHair" />
         <Divider />
-        <h3> {{ $t("calculate.content.title4") }}</h3>
+        <h3 class="w-100"> {{ $t("calculate.content.title4") }}</h3>
         <MultiSelector :items="hobbieButtons" :selecteds="friend.hobbie" @onToggle="toggleHobbie" />
         <Divider />
         <v-btn class="my-4" variant="flat" rounded="xl" color="primary">{{
@@ -64,6 +64,8 @@ const socialButtons = [{
   src: "$social4"
 }, {
   src: "$social5"
+}, {
+  src: "$social6"
 }]
 
 const musicButtons = [{
@@ -81,6 +83,9 @@ const musicButtons = [{
 }, {
   src: "$music5",
   label: "calculate.content.music.label5"
+}, {
+  src: "$music6",
+  label: "calculate.content.music.label6"
 }]
 
 const hobbieButtons = [{
@@ -98,6 +103,9 @@ const hobbieButtons = [{
 }, {
   src: "$hobbie5",
   label: "calculate.content.hobbie.label5"
+}, {
+  src: "$hobbie6",
+  label: "calculate.content.hobbie.label6"
 }]
 
 function updateGender(index) {
