@@ -7,7 +7,7 @@ export enum Gender {
 
 export const useFriend = defineStore('friend', () => {
     const gender = ref(Gender.male);
-    const hair = ref(-1);
+    const hair = ref(0);
     const music = ref([]);
     const social = ref([]);
     const hobbie = ref([]);

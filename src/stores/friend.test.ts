@@ -8,7 +8,7 @@ describe('Friend store', () => {
     it('should have an initial state', () => {
         const sut = useFriend();
         expect(sut.gender).toBe('m');
-        expect(sut.hair).toBe(-1);
+        expect(sut.hair).toBe(0);
         expect(sut.music.length).toBe(0);
         expect(sut.social.length).toBe(0);
         expect(sut.hobbie.length).toBe(0);
