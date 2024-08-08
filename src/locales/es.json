@@ -21,10 +21,11 @@
             "title1": "¿Qué música escucha?",
             "music": {
                 "label1": "Techno",
-                "label2": "Urbana",
+                "label2": "Reggaeton",
                 "label3": "Rock",
                 "label4": "Pop",
-                "label5": "Clásica"
+                "label5": "Clásica",
+                "label6": "Urbana"
             },
             "title2": "¿Qué redes sociales tiene?",
             "title3": "Color de pelo",
@@ -34,7 +35,8 @@
                 "label2": "Juegos",
                 "label3": "Cantar",
                 "label4": "Deporte",
-                "label5": "TV"
+                "label5": "TV",
+                "label6": "Dibujar"
             },
             "btn1": "Calcular"
         }
