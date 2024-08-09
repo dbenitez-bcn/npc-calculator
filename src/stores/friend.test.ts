@@ -25,4 +25,39 @@ describe('Friend store', () => {
             expect(sut.isMale).toBeFalsy();
         })
     })
+
+    describe('npcScore', () => {
+        it('Should return 50 when nothing is selected', () => {
+            const sut = useFriend();
+
+            expect(sut.npcScore).toBe(50);
+        });
+        it('Should return 50 when all is selected and hair is not 5', () => {
+            const sut = useFriend();
+            sut.music = [true,true,true,true,true,true];
+            sut.social = [true,true,true,true,true,true];
+            sut.hobbie = [true,true,true,true,true,true];
+            sut.hair = 0;
+
+            expect(sut.npcScore).toBe(50);
+        });
+        it('Should return 100 when npc starts are high', () => {
+            const sut = useFriend();
+            sut.music = [false,true,false,false,false,false];
+            sut.social = [false,false,false,true,false,false];
+            sut.hobbie = [false,false,false,false,true,false];
+            sut.hair = 4;
+
+            expect(sut.npcScore).toBe(100);
+        });
+        it('Should return 0 when npc starts are low', () => {
+            const sut = useFriend();
+            sut.music = [false,false,false,false,true,false];
+            sut.social = [true,false,false,false,false,false];
+            sut.hobbie = [false,false,false,false,false,true];
+            sut.hair = 0;
+
+            expect(sut.npcScore).toBe(0);
+        });
+    })
 })
