@@ -49,6 +49,17 @@
             "btn1": "Calcular"
         }
     },
+    "result": {
+        "title_m": "Puntuación de NPC",
+        "title_f": "Puntuación de NPC",
+        "content": {
+            "title1": "Calculando...",
+            "title2_m": "Tu amigo es un {score}% NPC",
+            "title2_f": "Tu amiga es un {score}% NPC",
+            "btn1": "Calcular otro amigo",
+            "btn2": "Compartir"
+        }
+    },
     "footer": {
         "copy": "NPC Calculator ©",
         "about": "Sobre nosotros",
