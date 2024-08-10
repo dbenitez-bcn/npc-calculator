@@ -21,8 +21,7 @@ export const useFriend = defineStore('friend', () => {
         const musicScore = getScore(music.value, [22, 50, -36, 38, -50, -24]) * 0.34;
         const socialScore = getScore(social.value, [-50, 0, 12, 50, 29, -41]) * 0.33;
         const hobbieScore = getScore(hobbie.value, [-3, 5, -19, 17, 50, -50]) * 0.33;
-        console.log(musicScore, " ", hobbieScore, " ", socialScore);
-        return (musicScore + hobbieScore + socialScore);
+        return Math.floor(musicScore + hobbieScore + socialScore);
     });
 
     function getScore(activeStats: boolean[], values: number[]): number {
