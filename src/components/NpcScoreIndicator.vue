@@ -6,7 +6,7 @@
                 <h3>{{ progress }}</h3>
             </v-progress-circular>
         </div>
-        <h1 class="bg-background mt-n10 z-1 text-center">{{ message }}</h1>
+        <h1 class="bg-background mt-n10 z-1 text-center breathing-text"><span :class="isLoading ? 'pulsating-text' : ''">{{ message }}</span></h1>
     </div>
 </template>
 
@@ -54,28 +54,18 @@ function increment() {
 .z-1 {
     z-index: 1;
 }
-
-.center {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    left: 0;
+.pulsating-text {
+  color: white;
+  animation: pulsate 2s infinite alternate;
 }
 
-
-.foo {
-    width: 100%;
-    height: 15px;
-    position: absolute;
-    bottom: 0px;
+@keyframes pulsate {
+  0% {
+    color: white;
+  }
+  50% {
+    color: gray;
+  }
 }
 
-.foo2 {
-    width: 100%;
-    height: 15px;
-    position: absolute;
-    bottom: -10px;
-}
 </style>
