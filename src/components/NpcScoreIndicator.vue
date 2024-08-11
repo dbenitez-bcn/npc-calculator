@@ -6,7 +6,8 @@
                 <h3>{{ progress }}</h3>
             </v-progress-circular>
         </div>
-        <h1 class="bg-background mt-n10 z-1 text-center breathing-text"><span :class="isLoading ? 'pulsating-text' : ''">{{ message }}</span></h1>
+        <h1 class="bg-background mt-n10 z-1 text-center breathing-text"><span
+                :class="isLoading ? 'pulsating-text' : ''">{{ message }}</span></h1>
     </div>
 </template>
 
@@ -39,7 +40,7 @@ function increment() {
             message.value = t(`result.content.title2_${friend.gender}`, { "score": friend.npcScore });
             isLoading.value = false;
         }
-    }, 2000/friend.npcScore);
+    }, 2000 / friend.npcScore);
 }
 
 </script>
@@ -54,18 +55,19 @@ function increment() {
 .z-1 {
     z-index: 1;
 }
+
 .pulsating-text {
-  color: white;
-  animation: pulsate 2s infinite alternate;
+    color: white;
+    animation: pulsate 2s infinite alternate;
 }
 
 @keyframes pulsate {
-  0% {
-    color: white;
-  }
-  50% {
-    color: gray;
-  }
-}
+    0% {
+        color: white;
+    }
 
+    50% {
+        color: gray;
+    }
+}
 </style>
