@@ -6,7 +6,7 @@
                 <h3>{{ progress }}</h3>
             </v-progress-circular>
         </div>
-        <h1 class="bg-background mt-n10 z-1">{{ message }}</h1>
+        <h1 class="bg-background mt-n10 z-1 text-center">{{ message }}</h1>
     </div>
 </template>
 
@@ -39,7 +39,7 @@ function increment() {
             message.value = t(`result.content.title2_${friend.gender}`, { "score": friend.npcScore });
             isLoading.value = false;
         }
-    }, 1500/friend.npcScore);
+    }, 2000/friend.npcScore);
 }
 
 </script>
