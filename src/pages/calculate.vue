@@ -9,33 +9,34 @@
       <v-col class="d-flex flex-column align-center" cols="12" sm="6">
         <h3 class="w-100 mb-6"> {{ $t("calculate.content.title1") }}</h3>
         <MultiSelector :items="musicButtons" :selecteds="friend.music" @onToggle="toggleMusic" />
-        <Divider class="d-flex d-sm-none"/>
+        <Divider class="d-flex d-sm-none" />
       </v-col>
       <v-col class="d-flex flex-column align-center" cols="12" sm="6">
         <h3 class="w-100 mb-6"> {{ $t("calculate.content.title2") }}</h3>
         <MultiSelector :items="socialButtons" :selecteds="friend.social" @onToggle="toggleSocial" />
-        <Divider class="d-flex d-sm-none"/>
+        <Divider class="d-flex d-sm-none" />
       </v-col>
     </v-row>
-    <Divider class="d-none d-sm-flex"/>
+    <Divider class="d-none d-sm-flex" />
     <v-row>
       <v-col class="d-flex flex-column align-center" cols="12" sm="6">
         <h3 class="w-100 mb-2"> {{ $t("calculate.content.title3") }}</h3>
         <div class="d-flex h-100">
-          <Selector class="align-self-center" :items="hairButtons" :selected="friend.hair" :fillWith="true" @onSelectedUpdate="updateHair" />
+          <Selector class="align-self-center" :items="hairButtons" :selected="friend.hair" :fillWith="true"
+            @onSelectedUpdate="updateHair" />
         </div>
-        <Divider class="d-flex d-sm-none"/>
+        <Divider class="d-flex d-sm-none" />
       </v-col>
       <v-col class="d-flex flex-column align-center" cols="12" sm="6">
         <h3 class="w-100 mb-6"> {{ $t("calculate.content.title4") }}</h3>
         <MultiSelector :items="hobbieButtons" :selecteds="friend.hobbie" @onToggle="toggleHobbie" />
-        <Divider class="d-flex d-sm-none"/>
+        <Divider class="d-flex d-sm-none" />
       </v-col>
     </v-row>
-    <Divider class="d-none d-sm-flex"/>
+    <Divider class="d-none d-sm-flex" />
     <v-row>
       <v-col class="d-flex flex-column align-center">
-        <v-btn class="my-4" variant="flat" rounded="xl" color="primary">{{
+        <v-btn class="my-4" variant="flat" rounded="xl" color="primary" @click="toResult">{{
           $t("calculate.content.btn1")
         }}</v-btn>
       </v-col>
@@ -45,7 +46,7 @@
 
 <script setup>
 const friend = useFriend();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 useHead({
   title: t(`calculate.title_${friend.gender}`)
@@ -151,6 +152,10 @@ function toggleSocial(index) {
 
 function toggleHobbie(index) {
   friend.hobbie[index] = !friend.hobbie[index];
+}
+function toResult() {
+  navigateTo(`/${locale.value}/result`);
+  // alert(friend.npcScore, "%");
 }
 </script>
 
