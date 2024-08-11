@@ -30,6 +30,12 @@ export const useFriend = defineStore('friend', () => {
         }, 50);
     }
 
+    function $reset() {
+        hair.value = 0;
+        music.value = [];
+        social.value = [];
+        hobbie.value = [];
+    }
 
-    return { gender, hair, music, social, hobbie, isMale, setGender, npcScore: npcScore };
+    return { gender, hair, music, social, hobbie, isMale, setGender, npcScore, $reset };
 });
