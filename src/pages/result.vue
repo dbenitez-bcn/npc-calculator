@@ -29,6 +29,7 @@ definePageMeta({
 
 function toCalculate() {
   navigateTo(`/${locale.value}/calculate`);
+  friend.$reset();
 }
 
 </script>
