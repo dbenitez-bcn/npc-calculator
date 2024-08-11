@@ -17,7 +17,7 @@ const { t } = useI18n();
 const message = ref(t(`result.content.title1`));
 const isLoading = ref(true);
 const progress = ref(0);
-const barColor = ref('red')
+const barColor = ref('white')
 
 onMounted(() => {
     setTimeout(() => {
