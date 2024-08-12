@@ -52,6 +52,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@pinia/nuxt',
+    'nuxt-vuefire',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error
@@ -72,6 +73,18 @@ export default defineNuxtConfig({
       template: {
         transformAssetUrls,
       },
+    },
+  },
+
+  vuefire: {
+    config: {
+      apiKey: "",
+      authDomain: "logic-gear-apps.firebaseapp.com",
+      projectId: "logic-gear-apps",
+      storageBucket: "logic-gear-apps.appspot.com",
+      messagingSenderId: "1082839337882",
+      appId: "1:1082839337882:web:ee10fef641065416690823",
+      measurementId: "G-8LGQ0QN5Y9"
     },
   },
 
