@@ -14,27 +14,30 @@
     <v-row>
       <v-col cols="12" sm="6">
         <h3 class="text-h6">{{ $t("landing.content.title1") }}</h3>
-        <p class="text-body-1 text-sm-justify text-center">
-          {{ $t("landing.content.body1") }}
-        </p>
+        <p v-html="$t('landing.content.body1')" class="text-body-1 text-sm-justify text-center" />
         <v-img class="rounded-circle mx-8 my-4" src="~/assets/img/landing-1.jpg"></v-img>
       </v-col>
       <v-col cols="12" sm="6">
         <h3 class="text-h6">{{ $t("landing.content.title2") }}</h3>
-        <p class="text-body-1 text-sm-justify text-center">
-          {{ $t("landing.content.body2") }}
-        </p>
+        <p v-html="$t('landing.content.body2')" class="text-body-1 text-sm-justify text-center" />
         <v-img class="rounded-circle mx-8 my-4" src="~/assets/img/landing-2.jpg"></v-img>
+      </v-col>
+      <v-col cols="12" sm="6">
+        <h3 class="text-h6">{{ $t("landing.content.title3") }}</h3>
+        <p class="text-body-1 text-sm-justify text-center">
+          {{ $t("landing.content.body3") }}
+        </p>
+        <v-img class="rounded-circle mx-8 my-4" src="~/assets/img/landing-3.png"></v-img>
       </v-col>
     </v-row>
     <v-row>
       <v-col cols="12" class="d-flex align-center flex-column">
         <p class="text-body-1 text-center">
-          {{ $t("landing.content.body3") }}
+          {{ $t("landing.content.body4") }}
         </p>
         <v-btn class="my-4" variant="flat" rounded="xl" color="primary" @click="navigateToCalculate(friend.gender)">{{
           $t("landing.content.btn3")
-          }}</v-btn>
+        }}</v-btn>
       </v-col>
     </v-row>
   </v-container>
