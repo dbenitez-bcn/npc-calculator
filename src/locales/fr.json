@@ -1,0 +1,70 @@
+{
+    "landing": {
+        "title_m": "NPC CALCULATOR",
+        "title_f": "NPC CALCULATOR",
+        "sub-title": "Ton ami est-il un PNJ?",
+        "content": {
+            "title1": "Qu'est-ce qu'un PNJ?",
+            "title2": "Comment fonctionne le calculateur de PNJ?",
+            "title3": "Qu'est-ce que le score PNJ?",
+            "body1": "Un <strong>personnage non jouable</strong> ou PNJ, abréviation de Non-Playable Character en anglais, fait référence à des personnages qui ne sont pas contrôlés par le joueur. Ces PNJ sont généralement contrôlés par le maître du jeu dans les jeux de rôle ou par l'intelligence artificielle dans un jeu vidéo. Le terme PNJ est devenu populaire sur les réseaux sociaux pour décrire des personnes qui adoptent des comportements étranges et qui défient les règles du jeu.",
+            "body2": "Tout comme Coca-Cola, le calculateur de PNJ a sa propre formule secrète pour calculer le <strong>score PNJ</strong>. Nous ne pouvons pas t'en dire beaucoup à ce sujet car cela gâcherait le jeu, mais en essence, il est possible de déterminer si quelqu'un est un PNJ en fonction de ses préférences, car elles donnent des indices sur son code source et aident à déterminer son score PNJ. Pour connaître le pourcentage, il te suffit de saisir quelques caractéristiques personnelles et NPC Calculator calculera le pourcentage pour toi.",
+            "body3": "Le score PNJ est un indicateur qui nous aide à savoir si une personne est un PNJ ou non. Ce score est un pourcentage qui décrit si une personne est un personnage principal lorsque son score PNJ est compris entre 0% et 40%. Un agent double si l'indicateur est compris entre 41% et 59%. Ou un PNJ si le pourcentage est compris entre 60% et 100%.",
+            "body4": "Veux-tu savoir si tes amis sont des PNJ complets? Ou préfères-tu savoir si c'est toi? Clique maintenant et calcule ton score PNJ!",
+            "btn1": "Mon ami est-il un PNJ?",
+            "btn2": "Mon amie est-elle un PNJ?",
+            "btn3": "Calculer maintenant"
+        }
+    },
+    "calculate": {
+        "title_m": "Ton ami est-il un PNJ?",
+        "title_f": "Ton amie est-elle un PNJ?",
+        "content": {
+            "title1": "Quelle musique écoute-t-il/elle?",
+            "music": {
+                "label1": "Techno",
+                "label2": "Reggaeton",
+                "label3": "Rock",
+                "label4": "Pop",
+                "label5": "Classique",
+                "label6": "Urbain"
+            },
+            "title2": "Quelles réseaux sociaux utilise-t-il/elle?",
+            "social": {
+                "label1": "Facebook",
+                "label2": "Instagram",
+                "label3": "Pinterest",
+                "label4": "TikTok",
+                "label5": "X",
+                "label6": "Snapchat"
+            },
+            "title3": "Couleur des cheveux",
+            "title4": "Quels sont ses loisirs?",
+            "hobbie": {
+                "label1": "Lecture",
+                "label2": "Jeux",
+                "label3": "Chanter",
+                "label4": "Sport",
+                "label5": "TV",
+                "label6": "Dessiner"
+            },
+            "btn1": "Calculer"
+        }
+    },
+    "result": {
+        "title_m": "Score PNJ",
+        "title_f": "Score PNJ",
+        "content": {
+            "title1": "Calcul en cours...",
+            "title2_m": "Ton ami est un PNJ à {score}%",
+            "title2_f": "Ton amie est un PNJ à {score}%",
+            "btn1": "Calculer un autre ami",
+            "btn2": "Partager"
+        }
+    },
+    "footer": {
+        "copy": "NPC Calculator ©",
+        "about": "À propos de nous",
+        "privacy": "Politique de confidentialité"
+    }
+}

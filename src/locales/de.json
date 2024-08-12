@@ -1,0 +1,70 @@
+{
+    "landing": {
+        "title_m": "NPC CALCULATOR",
+        "title_f": "NPC CALCULATOR",
+        "sub-title": "Ist dein Freund ein NPC?",
+        "content": {
+            "title1": "Was ist ein NPC?",
+            "title2": "Wie funktioniert der NPC-Rechner?",
+            "title3": "Was ist der NPC-Score?",
+            "body1": "Ein <strong>nicht spielbarer Charakter</strong> oder NPC, Abkürzung für Non-Playable Character, bezieht sich auf Charaktere, die nicht vom Spieler gesteuert werden. Diese NPCs werden in der Regel vom Spielleiter in Rollenspielen oder von der künstlichen Intelligenz in einem Videospiel gesteuert. Der Begriff NPC (Nicht-Spieler-Charakter) ist in sozialen Medien populär geworden und beschreibt Menschen, die seltsames Verhalten zeigen und die Spielregeln brechen.",
+            "body2": "Ähnlich wie bei Coca-Cola hat der NPC-Rechner seine eigene geheime Formel zur Berechnung des <strong>NPC-Scores</strong>. Wir können dir nicht viel darüber verraten, weil wir sonst das Spiel kaputtmachen würden, aber im Wesentlichen ist es möglich festzustellen, ob jemand ein NPC ist, basierend auf seinen Vorlieben, da diese Hinweise auf seinen Quellcode geben und den NPC-Score bestimmen. Um den Prozentsatz herauszufinden, musst du nur ein paar persönliche Merkmale eingeben, und NPC Calculator berechnet den Prozentsatz für dich.",
+            "body3": "Der NPC-Score ist ein Indikator, der uns hilft zu wissen, ob eine Person ein NPC ist oder nicht. Diese Punktzahl ist ein Prozentsatz, der beschreibt, ob eine Person eine Hauptfigur ist, wenn ihr NPC-Score zwischen 0% und 40% liegt. Ein Doppelagent, wenn der Indikator zwischen 41% und 59% liegt. Oder ein NPC, wenn der Prozentsatz zwischen 60% und 100% liegt.",
+            "body4": "Möchtest du herausfinden, ob deine Freunde vollständige NPCs sind? Oder möchtest du wissen, ob du es bist? Klicke jetzt und berechne euren NPC-Score!",
+            "btn1": "Ist mein Freund ein NPC?",
+            "btn2": "Ist meine Freundin ein NPC?",
+            "btn3": "Jetzt berechnen"
+        }
+    },
+    "calculate": {
+        "title_m": "Ist dein Freund ein NPC?",
+        "title_f": "Ist deine Freundin ein NPC?",
+        "content": {
+            "title1": "Welche Musik hört er/sie?",
+            "music": {
+                "label1": "Techno",
+                "label2": "Reggaeton",
+                "label3": "Rock",
+                "label4": "Pop",
+                "label5": "Klassik",
+                "label6": "Urban"
+            },
+            "title2": "Welche sozialen Netzwerke nutzt er/sie?",
+            "social": {
+                "label1": "Facebook",
+                "label2": "Instagram",
+                "label3": "Pinterest",
+                "label4": "TikTok",
+                "label5": "X",
+                "label6": "Snapchat"
+            },
+            "title3": "Haarfarbe",
+            "title4": "Welche Hobbys hat er/sie?",
+            "hobbie": {
+                "label1": "Lesen",
+                "label2": "Spiele",
+                "label3": "Singen",
+                "label4": "Sport",
+                "label5": "Fernsehen",
+                "label6": "Zeichnen"
+            },
+            "btn1": "Berechnen"
+        }
+    },
+    "result": {
+        "title_m": "NPC-Score",
+        "title_f": "NPC-Score",
+        "content": {
+            "title1": "Berechnung läuft...",
+            "title2_m": "Dein Freund ist zu {score}% ein NPC",
+            "title2_f": "Deine Freundin ist zu {score}% ein NPC",
+            "btn1": "Einen anderen Freund berechnen",
+            "btn2": "Teilen"
+        }
+    },
+    "footer": {
+        "copy": "NPC Calculator ©",
+        "about": "Über uns",
+        "privacy": "Datenschutzrichtlinie"
+    }
+}
