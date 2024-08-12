@@ -3,8 +3,8 @@
         <div class="indicator-box bg-background">
             <v-progress-circular class="center" :model-value="progress * 0.75" :rotate="-135" :size="200" :width="15"
                 :color="barColor">
-                <h3>{{ progress }}</h3>
             </v-progress-circular>
+            <h1 class="center-absolute">{{ progress }}</h1>
         </div>
         <h1 class="bg-background mt-n10 z-1 text-center breathing-text">
             <span :class="isLoading ? 'shimmer-text' : ''">
@@ -26,13 +26,13 @@ const barColor = ref('white')
 onMounted(() => {
     setTimeout(() => {
         increment();
-    }, 4000)
+    }, 500)
 })
 
 function increment() {
     setTimeout(() => {
-        if (progress.value >= 90) barColor.value = 'ultimate-green';
-        else if (progress.value > 75) barColor.value = 'soft-thunder';
+        if (progress.value >= 80) barColor.value = 'ultimate-green';
+        else if (progress.value > 60) barColor.value = 'soft-thunder';
         else if (progress.value > 30) barColor.value = 'yellow';
         else if (progress.value > 10) barColor.value = 'warning';
         else barColor.value = 'red';
@@ -43,7 +43,7 @@ function increment() {
             message.value = t(`result.content.title2_${friend.gender}`, { "score": friend.npcScore });
             isLoading.value = false;
         }
-    }, 2000 / friend.npcScore);
+    }, 2000/friend.npcScore);
 }
 
 </script>
@@ -53,6 +53,13 @@ function increment() {
     width: 200px;
     height: 200px;
     position: relative;
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .z-1 {
