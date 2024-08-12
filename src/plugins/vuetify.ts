@@ -19,6 +19,10 @@ const mainTheme: ThemeDefinition = {
         'female-pink': '#FF5CCD',
         'male-blue': '#69C9D0'
     },
+    variables: {
+        'border-color': '#313131',
+        'border-opacity': '1'
+    },
 }
 export default defineNuxtPlugin((app) => {
     const vuetify = createVuetify({

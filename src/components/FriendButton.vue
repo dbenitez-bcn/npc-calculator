@@ -1,6 +1,6 @@
 <template>
   <div
-    class="friend-button-container rounded-lg bg-primary border-md border-secondary d-flex justify-space-between align-center cursor-pointer border-opacity-100"
+    class="friend-button-container rounded-lg bg-primary border-md border-secondary d-flex justify-space-between align-center cursor-pointer"
     :class="isReverse ? 'flex-row-reverse right-radius-bg' : 'flex-row left-radius-bg'">
     <div class="img-container">
       <v-img :src="imgSrc" :height="'100%'" cover/>
