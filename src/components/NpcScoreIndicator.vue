@@ -6,8 +6,11 @@
                 <h3>{{ progress }}</h3>
             </v-progress-circular>
         </div>
-        <h1 class="bg-background mt-n10 z-1 text-center breathing-text"><span
-                :class="isLoading ? 'pulsating-text' : ''">{{ message }}</span></h1>
+        <h1 class="bg-background mt-n10 z-1 text-center breathing-text">
+            <span :class="isLoading ? 'shimmer-text' : ''">
+                {{ message }}
+            </span>
+        </h1>
     </div>
 </template>
 
@@ -56,18 +59,22 @@ function increment() {
     z-index: 1;
 }
 
-.pulsating-text {
-    color: white;
-    animation: pulsate 2s infinite alternate;
+.shimmer-text {
+    color: transparent;
+    background: linear-gradient(to right, white, white, white, rgb(148, 148, 148), white, white);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shimmer 2s infinite;
 }
 
-@keyframes pulsate {
+@keyframes shimmer {
     0% {
-        color: white;
+        background-position: 0%;
     }
 
-    50% {
-        color: gray;
+    100% {
+        background-position: -150%;
     }
 }
 </style>
