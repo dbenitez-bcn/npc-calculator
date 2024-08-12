@@ -4,7 +4,7 @@
             <v-progress-circular class="center" :model-value="progress * 0.75" :rotate="-135" :size="200" :width="15"
                 :color="barColor">
             </v-progress-circular>
-            <h1 class="center-absolute">{{ progress }}</h1>
+            <span class="center-absolute text-h2 font-weight-medium">{{ progress }}%</span>
         </div>
         <h1 class="bg-background mt-n10 z-1 text-center breathing-text">
             <span :class="isLoading ? 'shimmer-text' : ''">
