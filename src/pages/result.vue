@@ -29,7 +29,8 @@ definePageMeta({
 })
 
 function toCalculate() {
-  navigateTo(`/${locale.value}/calculate`);
+  const localePath = useLocalePath();
+  navigateTo(localePath('/calculate'));
   friend.$reset();
 }
 

@@ -57,7 +57,8 @@ definePageMeta({
 
 function navigateToCalculate(gender: Gender) {
   friend.setGender(gender);
-  navigateTo(`/${locale.value}/calculate`);
+  const localePath = useLocalePath();
+  navigateTo(localePath('/calculate'));
 }
 
 </script>

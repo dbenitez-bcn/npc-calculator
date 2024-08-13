@@ -154,8 +154,8 @@ function toggleHobbie(index) {
   friend.hobbie[index] = !friend.hobbie[index];
 }
 function toResult() {
-  navigateTo(`/${locale.value}/result`);
-  // alert(friend.npcScore, "%");
+  const localePath = useLocalePath();
+  navigateTo(localePath('/result'));
 }
 </script>
 
