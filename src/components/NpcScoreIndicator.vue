@@ -26,7 +26,7 @@ const barColor = ref('white')
 onMounted(() => {
     setTimeout(() => {
         increment();
-    }, 500)
+    }, 4000)
 })
 
 function increment() {
