@@ -3,6 +3,7 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
   srcDir: 'src/',
+  ssr: false,
   app: {
     head: {
       title: "NPC Calculator",
