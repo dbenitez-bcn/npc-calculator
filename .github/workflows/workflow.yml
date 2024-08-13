@@ -15,6 +15,8 @@ jobs:
         run: npm i
       - name: Test
         run: npm test
+      - name: Create .env file
+        run: echo NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY=${{ secrets.NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY }} >> .env
       - name: Build
         run: npm run generate
       - name: Deploy
