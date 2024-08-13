@@ -38,6 +38,10 @@ export default defineNuxtConfig({
         {
           name: "theme-color",
           content: "#ffffff"
+        },
+        {
+          name: "google-adsense-account",
+          content: "ca-pub-9458621217720467"
         }
       ]
     }
