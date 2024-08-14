@@ -7,7 +7,7 @@ on:
     branches:
       - main
 jobs:
-  build_and_test:
+  test:
     name: Build and test
     runs-on: ubuntu-latest
     steps:
@@ -16,19 +16,19 @@ jobs:
         run: npm i
       - name: Test
         run: npm test
-      - name: Create .env file
-        run: echo NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY=${{ secrets.NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY }} >> .env
-      - name: Build
-        run: npm run generate
   deploy_to_prod:
     name: Deploy to prod
-    needs: [build_and_test]
+    needs: [test]
     runs-on: ubuntu-latest
     environment:
       name: Production
       url: 'https://npccalculator.es'
     steps:
       - uses: actions/checkout@v4
+      - name: Environment variables creation
+        run: echo NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY=${{ secrets.NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY }} >> .env
+      - name: Build
+        run: npm run generate
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
