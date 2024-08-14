@@ -3,6 +3,7 @@
         "title_m": "NPC CALCULATOR",
         "title_f": "NPC CALCULATOR",
         "sub-title": "Ton ami est-il un PNJ?",
+        "description": "Voulez-vous savoir si votre ami est un PNJ? Maintenant, vous pouvez calculer son score PNJ avec le calculateur de PNJ en passant notre test.",
         "content": {
             "title1": "Qu'est-ce qu'un PNJ?",
             "title2": "Comment fonctionne le calculateur de PNJ?",

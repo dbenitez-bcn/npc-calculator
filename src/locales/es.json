@@ -3,6 +3,7 @@
         "title_m": "NPC CALCULATOR",
         "title_f": "NPC CALCULATOR",
         "sub-title": "¿Es tu amigo un NPC?",
+        "description": "¿Quieres saber si tu amigo es un NPC? Ahora puedes calcular su NPC score con la calculadora de NPC haciendo nuestro test.",
         "content": {
             "title1": "¿Qué es un NPC?",
             "title2": "¿Cómo funciona NPC calculator?",
