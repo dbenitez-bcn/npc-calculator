@@ -25,6 +25,8 @@ jobs:
       url: 'https://npccalculator.es'
     steps:
       - uses: actions/checkout@v4
+      - name: Dependencies instalation
+        run: npm i
       - name: Environment variables creation
         run: echo NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY=${{ secrets.NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY }} >> .env
       - name: Build
