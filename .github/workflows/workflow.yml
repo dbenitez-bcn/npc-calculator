@@ -7,7 +7,8 @@ on:
     branches:
       - main
 jobs:
-  build_and_deploy:
+  build_and_test:
+    name: Build and test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,6 +20,14 @@ jobs:
         run: echo NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY=${{ secrets.NUXT_PUBLIC_VUEFIRE_CONFIG_API_KEY }} >> .env
       - name: Build
         run: npm run generate
+  deploy_to_prod:
+    name: Deploy to prod
+    needs: [build_and_test]
+    runs-on: ubuntu-latest
+    environment:
+      name: Production
+      url: 'https://npccalculator.es'
+    steps:
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
