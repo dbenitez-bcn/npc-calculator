@@ -1,5 +1,5 @@
 <template>
-  <div class="app-header">
+  <header class="app-header">
     <v-container class="pa-4 d-flex flex-column">
       <v-row class="ma-0" justify-sm="end" justify="space-between">
         <v-col class="pa-0 d-block d-sm-none" cols="2">
@@ -24,7 +24,7 @@
         </v-col>
       </v-row>
     </v-container>
-  </div>
+  </header>
 </template>
 
 <script setup>
