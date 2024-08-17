@@ -2,24 +2,24 @@
   "landing": {
     "title_m": "NPC CALCULATOR",
     "title_f": "NPC CALCULATOR",
-    "sub-title": "Il tuo amico è un NPC?",
-    "description": "Vuoi sapere se il tuo amico è un NPC? Ora puoi calcolare il suo punteggio NPC con il calcolatore di NPC facendo il nostro test.",
+    "sub-title": "Il tuo amico sarebbe un NPC?",
+    "description": "Vuoi sapere se il tuo amico sarebbe un NPC? Ora puoi calcolare il suo punteggio NPC con il calcolatore di NPC facendo il nostro test.",
     "content": {
       "title1": "Cos'è un NPC?",
       "title2": "Come funziona il calcolatore di NPC?",
       "title3": "Cos'è il punteggio NPC?",
       "body1": "Un <strong>personaggio non giocabile</strong> o NPC, abbreviazione di Non-Playable Character in inglese, si riferisce a quei personaggi che non sono controllati dal giocatore. Questi NPC sono generalmente controllati dal master nelle sessioni di gioco di ruolo o dall'intelligenza artificiale in un videogioco. Il termine PNG (Personaggio Non Giocabile) è diventato popolare sui social media per descrivere persone che mostrano comportamenti strani e che sfidano le regole del gioco.",
-      "body2": "Il calcolatore di NPC ha la sua formula segreta per calcolare il <strong>Punteggio NPC</strong>. Non possiamo dirti molto al riguardo perché rischieremmo di rovinare il gioco, ma essenzialmente è possibile determinare se qualcuno è un NPC in base ai suoi gusti, poiché questi forniscono indizi sul suo codice sorgente e aiutano a determinare il suo Punteggio NPC. Per scoprire la percentuale, devi solo inserire alcune caratteristiche personali e NPC Calculator calcolerà la percentuale per te.",
-      "body3": "Il Punteggio NPC è un indicatore che ci aiuta a capire se una persona è un NPC o meno. Questo punteggio è una percentuale che descrive se una persona è un personaggio principale quando il suo Punteggio NPC è tra lo 0% e il 40%. Un doppio agente se l'indicatore è tra il 41% e il 59%. Oppure un NPC se la percentuale è tra il 60% e il 100%.",
-      "body4": "Vuoi scoprire se i tuoi amici sono dei veri NPC? O preferisci sapere se lo sei tu? Clicca ora e calcola il tuo Punteggio NPC!",
-      "btn1": "Il mio amico è un NPC?",
-      "btn2": "La mia amica è un NPC?",
+      "body2": "Il calcolatore di NPC ha la sua formula segreta per calcolare il <strong>Punteggio NPC</strong>. Non possiamo dirti molto al riguardo perché romperemmo il gioco, ma essenzialmente il punteggio NPC viene calcolato in base ai suoi gusti, hobby e caratteristiche, poiché danno indizi sul suo codice sorgente. Quindi, per scoprire la sua percentuale di NPC, devi solo inserire alcune caratteristiche personali e il Calcolatore di NPC calcolerà la percentuale per te.",
+      "body3": "Il Punteggio NPC è un indicatore che ci aiuta a capire se una persona sarebbe un NPC o no. Questo punteggio è una percentuale che descrive se una persona sarebbe un personaggio principale, un agente doppio o un NPC. Il test è progettato in modo comico. Non è un risultato serio ed è fatto solo a scopo di intrattenimento.",
+      "body4": "Vuoi scoprire se i tuoi amici sarebbero dei completi NPC? O preferisci sapere se lo saresti tu? Clicca ora e calcola il tuo punteggio NPC!",
+      "btn1": "Il mio amico sarebbe un NPC?",
+      "btn2": "La mia amica sarebbe un NPC?",
       "btn3": "Calcola ora"
     }
   },
   "calculate": {
-    "title_m": "Il tuo amico è un NPC?",
-    "title_f": "La tua amica è un NPC?",
+    "title_m": "Il tuo amico sarebbe un NPC?",
+    "title_f": "La tua amica sarebbe un NPC?",
     "content": {
       "title1": "Che musica ascolta?",
       "music": {
@@ -57,10 +57,18 @@
     "title_f": "Punteggio NPC",
     "content": {
       "title1": "Calcolando...",
-      "title2_m": "Il tuo amico è un NPC al {score}%",
-      "title2_f": "La tua amica è un NPC al {score}%",
+      "title2_m": "Il tuo amico sarebbe un {score}% NPC",
+      "title2_f": "La tua amica sarebbe un {score}% NPC",
       "btn1": "Calcola un altro amico",
-      "btn2": "Condividi"
+      "btn2": "Condividi",
+      "share": {
+        "label_m": "Il mio amico sarebbe un {score}% NPC! Calcola il punteggio NPC su https://npccalculator.es",
+        "label_f": "La mia amica sarebbe un {score}% NPC! Calcola il punteggio NPC su https://npccalculator.es",
+        "share": "Condividi su {social}",
+        "copy": "Copia",
+        "copied": "Copiato!",
+        "close": "Chiudi"
+      }
     }
   },
   "footer": {

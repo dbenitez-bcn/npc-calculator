@@ -2,24 +2,24 @@
   "landing": {
     "title_m": "NPC CALCULATOR",
     "title_f": "NPC CALCULATOR",
-    "sub-title": "El teu amic és un NPC?",
-    "description": "Vols saber si el teu amic és un NPC? Ara pots calcular el seu NPC score amb la calculadora de NPC fent el nostre test.",
+    "sub-title": "Seria el teu amic un NPC?",
+    "description": "Vols saber si el teu amic seria un NPC? Ara pots calcular el seu NPC score amb la calculadora de NPC fent el nostre test.",
     "content": {
       "title1": "Què és un NPC?",
       "title2": "Com funciona el calculador de NPC?",
       "title3": "Què és el NPC score?",
       "body1": "Un <strong>personatge no jugable</strong> o NPC, sigles de Non-Playable Character en anglès, fa referència als personatges que no són controlats pel jugador. Aquests NPC solen ser controlats pel mestre de joc en partides de rol o per la intel·ligència artificial en un videojoc. El terme PNJ (Personatge No Jugable) s'ha fet popular a les xarxes socials, descrivint persones que mostren comportaments estranys i desafien les regles del joc.",
-      "body2": "El calculador de NPC té la seva pròpia fórmula secreta per calcular el <strong>NPC Score</strong>. No podem dir-te gaire sobre ella perquè trencaríem el joc, però essencialment, és possible determinar si algú és un NPC basant-se en les seves preferències, ja que aquestes proporcionen pistes sobre el seu codi font i ajuden a determinar el seu NPC Score. Així que, per conèixer el percentatge, només has d'introduir un parell de característiques personals i NPC Calculator calcularà el percentatge per tu.",
-      "body3": "El NPC Score és un indicador que ens ajuda a saber si una persona és un NPC o no. Aquesta puntuació és un percentatge, que descriu si una persona és un personatge principal quan el seu NPC Score està entre el 0% i el 40%. Un agent doble si l'indicador està entre el 41% i el 59%. O un NPC si el percentatge està entre el 60% i el 100%.",
-      "body4": "Vols saber si els teus amics són uns complets NPC? O prefereixes saber si ho ets tu? Fes clic ara i calcula el vostre NPC Score!",
-      "btn1": "El meu amic és un NPC?",
-      "btn2": "La meva amiga és una NPC?",
+      "body2": "La calculadora de NPC té la seva pròpia fórmula secreta per calcular el <strong>NPC Score</strong>. No et podem dir gaire sobre ella perquè trencaríem el joc, però en essència, el NPC score es calcula basant-se en els seus gustos, aficions i característiques, ja que donen pistes sobre el seu codi font. Així que per esbrinar el seu percentatge de NPC, només has d'introduir un parell de característiques personals i la calculadora NPC calcularà el percentatge per a tu.",
+      "body3": "El NPC Score és un indicador que ens ajuda a saber si una persona seria un NPC o no. Aquesta puntuació és un percentatge que descriu si una persona seria un personatge principal, un agent doble o un NPC. El test està dissenyat de manera còmica. No és un resultat seriós i està fet només amb finalitats d'entreteniment.",
+      "body4": "Vols esbrinar si els teus amics serien uns NPC complets? O prefereixes saber si ho series tu? Fes clic ara i calcula el vostre NPC Score!",
+      "btn1": "Seria el meu amic un NPC?",
+      "btn2": "Seria la meva amiga una NPC?",
       "btn3": "Calcula ara"
     }
   },
   "calculate": {
-    "title_m": "El teu amic és un NPC?",
-    "title_f": "La teva amiga és una NPC?",
+    "title_m": "Seria el teu amic un NPC?",
+    "title_f": "Seria la teva amiga una NPC?",
     "content": {
       "title1": "Quina música escolta?",
       "music": {
@@ -57,10 +57,18 @@
     "title_f": "Puntuació de NPC",
     "content": {
       "title1": "Calculant...",
-      "title2_m": "El teu amic és un {score}% NPC",
-      "title2_f": "La teva amiga és un {score}% NPC",
+      "title2_m": "El teu amic seria un {score}% NPC",
+      "title2_f": "La teva amiga seria un {score}% NPC",
       "btn1": "Calcula un altre amic",
-      "btn2": "Comparteix"
+      "btn2": "Comparteix",
+      "share": {
+        "label_m": "El meu amic seria un {score}% NPC! Calcula el NPC Score a https://npccalculator.es",
+        "label_f": "La meva amiga seria un {score}% NPC! Calcula el NPC Score a https://npccalculator.es",
+        "share": "Comparteix a {social}",
+        "copy": "Copiar",
+        "copied": "Copiat!",
+        "close": "Tanca"
+      }
     }
   },
   "footer": {

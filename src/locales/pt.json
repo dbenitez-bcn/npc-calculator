@@ -2,24 +2,24 @@
   "landing": {
     "title_m": "NPC CALCULATOR",
     "title_f": "NPC CALCULATOR",
-    "sub-title": "Seu amigo é um NPC?",
-    "description": "Quer saber se seu amigo é um NPC? Agora você pode calcular o NPC score dele com a calculadora de NPC fazendo o nosso teste.",
+    "sub-title": "Seu amigo seria um NPC?",
+    "description": "Quer saber se seu amigo seria um NPC? Agora você pode calcular o NPC score dele com a calculadora de NPC fazendo nosso teste.",
     "content": {
       "title1": "O que é um NPC?",
       "title2": "Como funciona o calculador de NPC?",
       "title3": "O que é o NPC Score?",
       "body1": "Um <strong>personagem não jogável</strong>, ou NPC, abreviação de Non-Playable Character em inglês, refere-se a personagens que não são controlados pelo jogador. Esses NPCs geralmente são controlados pelo mestre do jogo em partidas de RPG ou pela inteligência artificial em um videogame. O termo NPC (Personagem Não Jogável) tornou-se popular nas redes sociais, descrevendo pessoas que exibem comportamentos estranhos e que desafiam as regras do jogo.",
-      "body2": "O calculador de NPC tem sua própria fórmula secreta para calcular o <strong>NPC Score</strong>. Não podemos te contar muito sobre isso porque estragaríamos o jogo, mas, essencialmente, é possível determinar se alguém é um NPC com base em seus gostos, já que eles dão pistas sobre o seu código-fonte e ajudam a determinar seu NPC Score. Para descobrir o percentual, você só precisa inserir algumas características pessoais e o NPC Calculator calculará o percentual para você.",
-      "body3": "O NPC Score é um indicador que nos ajuda a saber se uma pessoa é um NPC ou não. Essa pontuação é um percentual que descreve se uma pessoa é um personagem principal quando seu NPC Score está entre 0% e 40%. Um agente duplo se o indicador estiver entre 41% e 59%. Ou um NPC se o percentual estiver entre 60% e 100%.",
-      "body4": "Quer descobrir se seus amigos são NPCs completos? Ou prefere saber se você é? Clique agora e calcule o seu NPC Score!",
-      "btn1": "Meu amigo é um NPC?",
-      "btn2": "Minha amiga é um NPC?",
+      "body2": "A calculadora de NPC tem sua própria fórmula secreta para calcular o <strong>NPC Score</strong>. Não podemos te dizer muito sobre ela porque quebraríamos o jogo, mas essencialmente, o NPC score é calculado com base em seus gostos, passatempos e características, pois eles dão pistas sobre seu código-fonte. Então, para descobrir sua porcentagem de NPC, você só precisa inserir algumas características pessoais, e a calculadora de NPC calculará a porcentagem para você.",
+      "body3": "O NPC Score é um indicador que nos ajuda a saber se uma pessoa seria um NPC ou não. Esta pontuação é uma porcentagem que descreve se uma pessoa seria um personagem principal, um agente duplo ou um NPC. O teste é projetado de forma cômica. Não é um resultado sério e é feito apenas para fins de entretenimento.",
+      "body4": "Quer descobrir se seus amigos seriam NPCs completos? Ou prefere saber se você seria? Clique agora e calcule o seu NPC Score!",
+      "btn1": "Meu amigo seria um NPC?",
+      "btn2": "Minha amiga seria um NPC?",
       "btn3": "Calcular agora"
     }
   },
   "calculate": {
-    "title_m": "Seu amigo é um NPC?",
-    "title_f": "Sua amiga é um NPC?",
+    "title_m": "Seu amigo seria um NPC?",
+    "title_f": "Sua amiga seria um NPC?",
     "content": {
       "title1": "Que música ele/ela escuta?",
       "music": {
@@ -57,10 +57,18 @@
     "title_f": "Pontuação de NPC",
     "content": {
       "title1": "Calculando...",
-      "title2_m": "Seu amigo é {score}% NPC",
-      "title2_f": "Sua amiga é {score}% NPC",
+      "title2_m": "Seu amigo seria um {score}% NPC",
+      "title2_f": "Sua amiga seria um {score}% NPC",
       "btn1": "Calcular outro amigo",
-      "btn2": "Compartilhar"
+      "btn2": "Compartilhar",
+      "share": {
+        "label_m": "Meu amigo seria um {score}% NPC! Calcule o NPC Score em https://npccalculator.es",
+        "label_f": "Minha amiga seria um {score}% NPC! Calcule o NPC Score em https://npccalculator.es",
+        "share": "Compartilhar no {social}",
+        "copy": "Copiar",
+        "copied": "Copiado!",
+        "close": "Fechar"
+      }
     }
   },
   "footer": {

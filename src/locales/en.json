@@ -1,77 +1,85 @@
 {
-    "landing": {
-        "title_m": "NPC CALCULATOR",
-        "title_f": "NPC CALCULATOR",
-        "sub-title": "Is your friend an NPC?",
-        "description": "Do you want to know if your friend is an NPC? Now you can calculate their NPC score with the NPC calculator by taking our test.",
-        "content": {
-            "title1": "What is an NPC?",
-            "title2": "How does the NPC calculator work?",
-            "title3": "What is the NPC score?",
-            "body1": "A <strong>non-playable character</strong> or NPC, short for Non-Playable Character, refers to characters that are not controlled by the player. These NPCs are usually controlled by the game master in role-playing games or by artificial intelligence in a video game. The term NPC (Non-Playable Character) has become popular on social media, describing people who exhibit strange behaviors and defy the rules of the game.",
-            "body2": "The NPC calculator has its own secret formula for calculating the <strong>NPC Score</strong>. We can't tell you much about it because it would break the game, but essentially, it’s possible to determine if someone is an NPC based on their preferences, as these provide clues about their source code and help determine their NPC Score. So to find out the percentage, you just need to input a few personal characteristics, and NPC Calculator will calculate the percentage for you.",
-            "body3": "The NPC Score is an indicator that helps us know if a person is an NPC or not. This score is a percentage, which describes if a person is a main character when their NPC Score is between 0% and 40%. A double agent if the indicator is between 41% and 59%. Or an NPC if the percentage is between 60% and 100%.",
-            "body4": "Do you want to find out if your friends are complete NPCs? Or do you prefer to know if you are one? Click now and calculate your NPC Score!",
-            "btn1": "Is my friend an NPC?",
-            "btn2": "Is my friend an NPC?",
-            "btn3": "Calculate now"
-        }
-    },
-    "calculate": {
-        "title_m": "Is your friend an NPC?",
-        "title_f": "Is your friend an NPC?",
-        "content": {
-            "title1": "What music do they listen to?",
-            "music": {
-                "label1": "Techno",
-                "label2": "Reggaeton",
-                "label3": "Rock",
-                "label4": "Pop",
-                "label5": "Classical",
-                "label6": "Urban"
-            },
-            "title2": "What social networks do they have?",
-            "social": {
-                "label1": "Facebook",
-                "label2": "Instagram",
-                "label3": "Pinterest",
-                "label4": "TikTok",
-                "label5": "X",
-                "label6": "Snapchat"
-            },
-            "title3": "Hair color",
-            "title4": "What hobbies do they have?",
-            "hobbie": {
-                "label1": "Reading",
-                "label2": "Gaming",
-                "label3": "Singing",
-                "label4": "Sports",
-                "label5": "TV",
-                "label6": "Drawing"
-            },
-            "btn1": "Calculate"
-        }
-    },
-    "result": {
-        "title_m": "NPC Score",
-        "title_f": "NPC Score",
-        "content": {
-            "title1": "Calculating...",
-            "title2_m": "Your friend is {score}% NPC",
-            "title2_f": "Your friend is {score}% NPC",
-            "btn1": "Calculate another friend",
-            "btn2": "Share"
-        }
-    },
-    "footer": {
-        "copy": "NPC Calculator ©",
-        "about": "About us",
-        "privacy": "Privacy policy"
-    },
-    "error": {
-        "content": {
-            "title": "Ups! Something went wrong",
-            "btn": "Go back home"
-        }
+  "landing": {
+    "title_m": "NPC CALCULATOR",
+    "title_f": "NPC CALCULATOR",
+    "sub-title": "Would your friend be an NPC?",
+    "description": "Do you want to know if your friend would be an NPC? Now you can calculate their NPC score with the NPC calculator by taking our test.",
+    "content": {
+      "title1": "What is an NPC?",
+      "title2": "How does the NPC calculator work?",
+      "title3": "What is the NPC score?",
+      "body1": "A <strong>non-playable character</strong> or NPC, short for Non-Playable Character, refers to characters that are not controlled by the player. These NPCs are usually controlled by the game master in role-playing games or by artificial intelligence in a video game. The term NPC (Non-Playable Character) has become popular on social media, describing people who exhibit strange behaviors and defy the rules of the game.",
+      "body2": "The NPC calculator has its own secret formula to calculate the <strong>NPC Score</strong>. We can't tell you much about it because it would break the game, but essentially, the NPC score is calculated based on their preferences, hobbies, and characteristics, as these provide hints about their source code. So to find out their NPC percentage, you just need to enter a couple of personal characteristics, and the NPC Calculator will calculate the percentage for you.",
+      "body3": "The NPC Score is an indicator that helps us know if a person would be an NPC or not. This score is a percentage that describes whether a person would be a main character, a double agent, or an NPC. The test is designed humorously. It is not a serious result and is made only for entertainment purposes.",
+      "body4": "Do you want to find out if your friends would be complete NPCs? Or would you rather know if you would be one? Click now and calculate your NPC Score!",
+      "btn1": "Would my friend be an NPC?",
+      "btn2": "Would my friend be an NPC?",
+      "btn3": "Calculate now"
     }
+  },
+  "calculate": {
+    "title_m": "Would your friend be an NPC?",
+    "title_f": "Would your friend be an NPC?",
+    "content": {
+      "title1": "What music do they listen to?",
+      "music": {
+        "label1": "Techno",
+        "label2": "Reggaeton",
+        "label3": "Rock",
+        "label4": "Pop",
+        "label5": "Classical",
+        "label6": "Urban"
+      },
+      "title2": "What social networks do they have?",
+      "social": {
+        "label1": "Facebook",
+        "label2": "Instagram",
+        "label3": "Pinterest",
+        "label4": "TikTok",
+        "label5": "X",
+        "label6": "Snapchat"
+      },
+      "title3": "Hair color",
+      "title4": "What hobbies do they have?",
+      "hobbie": {
+        "label1": "Reading",
+        "label2": "Gaming",
+        "label3": "Singing",
+        "label4": "Sports",
+        "label5": "TV",
+        "label6": "Drawing"
+      },
+      "btn1": "Calculate"
+    }
+  },
+  "result": {
+    "title_m": "NPC Score",
+    "title_f": "NPC Score",
+    "content": {
+      "title1": "Calculating...",
+      "title2_m": "Your friend would be a {score}% NPC",
+      "title2_f": "Your friend would be a {score}% NPC",
+      "btn1": "Calculate another friend",
+      "btn2": "Share",
+      "share": {
+        "label_m": "My friend would be a {score}% NPC! Calculate the NPC Score at https://npccalculator.es",
+        "label_f": "My friend would be a {score}% NPC! Calculate the NPC Score at https://npccalculator.es",
+        "share": "Share on {social}",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "close": "Close"
+      }
+    }
+  },
+  "footer": {
+    "copy": "NPC Calculator ©",
+    "about": "About us",
+    "privacy": "Privacy policy"
+  },
+  "error": {
+    "content": {
+      "title": "Ups! Something went wrong",
+      "btn": "Go back home"
+    }
+  }
 }
