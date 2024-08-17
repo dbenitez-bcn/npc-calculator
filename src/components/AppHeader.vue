@@ -8,7 +8,7 @@
         <v-col
           cols="4"
           sm="2"
-          xl="1"
+          lg="1"
           class="d-flex justify-center align-self-center"
         >
           <LanguageSelector />
@@ -18,7 +18,7 @@
         <v-col class="d-none d-sm-block pa-0" cols="1" sm="2" lg="1">
           <AppLogo />
         </v-col>
-        <v-col class="d-flex flex-column justify-center" lg="7">
+        <v-col class="d-flex flex-column justify-center" lg="9">
           <h1 class="text-h3">{{ $t(route.meta.title+friend.gender) }}</h1>
           <h2 v-if="route.meta.headerSubtitle" class="text-h6">{{ $t(route.meta.headerSubtitle) }}</h2>
         </v-col>

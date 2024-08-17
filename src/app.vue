@@ -7,7 +7,7 @@
           <v-col class="d-none d-lg-flex">
             <!-- TODO: Add ads here -->
           </v-col>
-          <v-col class="pa-0" lg="8">
+          <v-col class="pa-0" lg="10">
             <NuxtPage />
           </v-col>
           <v-col class="d-none d-lg-flex">
