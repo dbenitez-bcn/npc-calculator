@@ -76,7 +76,7 @@ const friend = useFriend();
 const { t } = useI18n();
 
 useHead({
-  title: t(`landing.title_${friend.gender}`),
+  title: `${t(`landing.sub-title`)} | ${t(`landing.title_${friend.gender}`)}`,
 });
 definePageMeta({
   title: "landing.title_",
