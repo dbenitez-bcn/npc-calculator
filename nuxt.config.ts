@@ -57,6 +57,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@pinia/nuxt',
     'nuxt-vuefire',
+    '@nuxtjs/google-adsense',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error
@@ -94,6 +95,12 @@ export default defineNuxtConfig({
   css: [
     '~/assets/styles/main.css',
   ],
+
+  googleAdsense: {
+    id: 'ca-pub-9458621217720467',
+    onPageLoad: true,
+    test: true
+  },
 
   compatibilityDate: "2024-08-06",
 })
