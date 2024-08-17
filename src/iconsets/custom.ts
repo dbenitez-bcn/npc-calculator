@@ -1,3 +1,7 @@
+import x from '~/components/icons/x.vue';
+import whatsapp from '~/components/icons/whatsapp.vue';
+import telegram from '~/components/icons/telegram.vue';
+import facebook from '~/components/icons/facebook.vue';
 import hobbie6 from '~/components/icons/hobbie6.vue';
 import social6 from '~/components/icons/social6.vue';
 import music6 from '~/components/icons/music6.vue';
@@ -48,6 +52,10 @@ export const customAliases = {
     music6,
     social6,
     hobbie6,
+    facebook,
+    telegram,
+    whatsapp,
+    x,
     hair4,
     hair5,
 };
