@@ -77,4 +77,21 @@ Then use it
 </template>
 ```
 
+## Add new translations
+Create a file with your new translations under `./newLocales.json`
+````
+// Example of ./newLocales.json
+{
+  "en": {
+    "hello": "Hello",
+    "world": "World"
+  },
+  "fr": {
+    "bonjour": "Bonjour",
+    "monde": "Monde"
+  }
+}
+````
+Then run `npm run load-locales` and it will automatically update your translations
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

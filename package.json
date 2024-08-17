@@ -7,6 +7,7 @@
     "dev": "nuxt dev --host",
     "test": "vitest",
     "icon-processor": "bash icon-processor.sh",
+    "load-locales": "bash load-locales.sh",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
