@@ -1,71 +1,77 @@
 {
-    "landing": {
-        "title_m": "NPC CALCULATOR",
-        "title_f": "NPC CALCULATOR",
-        "sub-title": "¿Es tu amigo un NPC?",
-        "description": "¿Quieres saber si tu amigo es un NPC? Ahora puedes calcular su NPC score con la calculadora de NPC haciendo nuestro test.",
-        "content": {
-            "title1": "¿Qué es un NPC?",
-            "title2": "¿Cómo funciona NPC calculator?",
-            "title3": "¿Qué es el NPC score?",
-            "body1": "Un <strong>personaje no jugable</strong> o NPC de sus siglas en inglés Non Playable Character, es un término que hace referencia a esos personajes que no son controlados por el jugador. Estos NPC suelen ser controlados por el maestro de juego en las partidas de rol o por la inteligencia artificial en un videojuego. El término de PNJ (Personaje No Jugable) se ha hecho popular en redes sociales describiendo así a personas que tienen comportamientos extraños y que desafían las reglas del juego.",
-            "body2": "La calculadora de NPC tiene su propia fórmula secreta para calcular el <strong>NPC Score</strong>. No podemos decirte mucho acerca de ella porque romperíamos el juego, pero en esencia, es posible averiguar si alguien es un NPC basándose en sus gustos, ya que dan pinceladas sobre su código fuente y averiguar su NPC Score. Así que para averiguar su porcentaje, solamente tienes que introducir un par de características personales y NPC Calculator calculará el porcentaje por ti.",
-            "body3": "El NPC Score es un indicador que nos ayuda a saber si una persona es un NPC o no. Esta puntuación es un porcentaje, que describe si una persona es un personaje principal cuando su NPC Score está situado entre el 0% y el 40%. Un agente doble si el indicador está situado entre el 41% y el 59%. O un NPC si el porcentaje está entre el 60% y el 100%.",
-            "body4": "¿Quieres averiguar si tus amigos son unos completos NPC? ¿O prefieres saber si lo eres tú? ¡Haz clic ahora y calcula vuestro NPC Score!",
-            "btn1": "¿Es mi amigo un NPC?",
-            "btn2": "¿Es mi amiga una NPC?",
-            "btn3": "Calcular ahora"
-        }
-    },
-    "calculate": {
-        "title_m": "¿Es tu amigo un NPC?",
-        "title_f": "¿Es tu amiga una NPC?",
-        "content": {
-            "title1": "¿Qué música escucha?",
-            "music": {
-                "label1": "Techno",
-                "label2": "Reggaeton",
-                "label3": "Rock",
-                "label4": "Pop",
-                "label5": "Clásica",
-                "label6": "Urbana"
-            },
-            "title2": "¿Qué redes sociales tiene?",
-            "social": {
-                "label1": "Facebook",
-                "label2": "Instagram",
-                "label3": "Pinterest",
-                "label4": "TikTok",
-                "label5": "X",
-                "label6": "Snapchat"
-            },
-            "title3": "Color de pelo",
-            "title4": "¿Qué pasatiempos tiene?",
-            "hobbie": {
-                "label1": "Leer",
-                "label2": "Juegos",
-                "label3": "Cantar",
-                "label4": "Deporte",
-                "label5": "TV",
-                "label6": "Dibujar"
-            },
-            "btn1": "Calcular"
-        }
-    },
-    "result": {
-        "title_m": "Puntuación de NPC",
-        "title_f": "Puntuación de NPC",
-        "content": {
-            "title1": "Calculando...",
-            "title2_m": "Tu amigo es un {score}% NPC",
-            "title2_f": "Tu amiga es un {score}% NPC",
-            "btn1": "Calcular otro amigo",
-            "btn2": "Compartir"
-        }
-    },
-    "footer": {
-        "copy": "NPC Calculator ©",
-        "about": "Sobre nosotros",
-        "privacy": "Política de privacidad"
+  "landing": {
+    "title_m": "NPC CALCULATOR",
+    "title_f": "NPC CALCULATOR",
+    "sub-title": "¿Es tu amigo un NPC?",
+    "description": "¿Quieres saber si tu amigo es un NPC? Ahora puedes calcular su NPC score con la calculadora de NPC haciendo nuestro test.",
+    "content": {
+      "title1": "¿Qué es un NPC?",
+      "title2": "¿Cómo funciona NPC calculator?",
+      "title3": "¿Qué es el NPC score?",
+      "body1": "Un <strong>personaje no jugable</strong> o NPC de sus siglas en inglés Non Playable Character, es un término que hace referencia a esos personajes que no son controlados por el jugador. Estos NPC suelen ser controlados por el maestro de juego en las partidas de rol o por la inteligencia artificial en un videojuego. El término de PNJ (Personaje No Jugable) se ha hecho popular en redes sociales describiendo así a personas que tienen comportamientos extraños y que desafían las reglas del juego.",
+      "body2": "La calculadora de NPC tiene su propia fórmula secreta para calcular el <strong>NPC Score</strong>. No podemos decirte mucho acerca de ella porque romperíamos el juego, pero en esencia, es posible averiguar si alguien es un NPC basándose en sus gustos, ya que dan pinceladas sobre su código fuente y averiguar su NPC Score. Así que para averiguar su porcentaje, solamente tienes que introducir un par de características personales y NPC Calculator calculará el porcentaje por ti.",
+      "body3": "El NPC Score es un indicador que nos ayuda a saber si una persona es un NPC o no. Esta puntuación es un porcentaje, que describe si una persona es un personaje principal cuando su NPC Score está situado entre el 0% y el 40%. Un agente doble si el indicador está situado entre el 41% y el 59%. O un NPC si el porcentaje está entre el 60% y el 100%.",
+      "body4": "¿Quieres averiguar si tus amigos son unos completos NPC? ¿O prefieres saber si lo eres tú? ¡Haz clic ahora y calcula vuestro NPC Score!",
+      "btn1": "¿Es mi amigo un NPC?",
+      "btn2": "¿Es mi amiga una NPC?",
+      "btn3": "Calcular ahora"
     }
+  },
+  "calculate": {
+    "title_m": "¿Es tu amigo un NPC?",
+    "title_f": "¿Es tu amiga una NPC?",
+    "content": {
+      "title1": "¿Qué música escucha?",
+      "music": {
+        "label1": "Techno",
+        "label2": "Reggaeton",
+        "label3": "Rock",
+        "label4": "Pop",
+        "label5": "Clásica",
+        "label6": "Urbana"
+      },
+      "title2": "¿Qué redes sociales tiene?",
+      "social": {
+        "label1": "Facebook",
+        "label2": "Instagram",
+        "label3": "Pinterest",
+        "label4": "TikTok",
+        "label5": "X",
+        "label6": "Snapchat"
+      },
+      "title3": "Color de pelo",
+      "title4": "¿Qué pasatiempos tiene?",
+      "hobbie": {
+        "label1": "Leer",
+        "label2": "Juegos",
+        "label3": "Cantar",
+        "label4": "Deporte",
+        "label5": "TV",
+        "label6": "Dibujar"
+      },
+      "btn1": "Calcular"
+    }
+  },
+  "result": {
+    "title_m": "Puntuación de NPC",
+    "title_f": "Puntuación de NPC",
+    "content": {
+      "title1": "Calculando...",
+      "title2_m": "Tu amigo es un {score}% NPC",
+      "title2_f": "Tu amiga es un {score}% NPC",
+      "btn1": "Calcular otro amigo",
+      "btn2": "Compartir"
+    }
+  },
+  "footer": {
+    "copy": "NPC Calculator ©",
+    "about": "Sobre nosotros",
+    "privacy": "Política de privacidad"
+  },
+  "error": {
+    "content": {
+      "title": "¡Ups! Algo salió mal",
+      "btn": "Volver a la página principal"
+    }
+  }
 }
