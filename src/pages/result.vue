@@ -12,7 +12,7 @@
             @click="toCalculate"
             >{{ $t("result.content.btn1") }}</v-btn
           >
-          <ShareButton v-if="isDev" />
+          <ShareButton />
         </div>
       </v-col>
     </v-row>
@@ -22,7 +22,6 @@
 <script setup>
 const friend = useFriend();
 const { t, locale } = useI18n();
-const isDev = import.meta.dev;
 
 useHead({
   title: t(`result.title_${friend.gender}`),
