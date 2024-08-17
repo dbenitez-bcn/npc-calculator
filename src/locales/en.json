@@ -67,5 +67,11 @@
         "copy": "NPC Calculator ©",
         "about": "About us",
         "privacy": "Privacy policy"
+    },
+    "error": {
+        "content": {
+            "title": "Ups! Something went wrong",
+            "btn": "Go back home"
+        }
     }
 }
