@@ -72,7 +72,7 @@ function increment() {
     background-size: 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
-    animation: shimmer 2s infinite;
+    animation: shimmer 1.2s infinite;
 }
 
 @keyframes shimmer {
